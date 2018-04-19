@@ -1,0 +1,24 @@
+.ni-form-msg {
+  font-size: 0.75rem;
+  margin: 0 0 0.5rem;
+  display: flex;
+}
+.ni-form-msg:before {
+  content: '';
+  font-family: FontAwesome;
+  padding-right: 0.35rem;
+}
+.ni-form-msg.ni-form-msg-error {
+  color: #f00;
+}
+.ni-form-msg.ni-form-msg-error:before {
+  content: '\f06a';
+  color: #f00;
+}
+.ni-form-msg.ni-form-msg-desc {
+  color: #666;
+}
+.ni-form-msg.ni-form-msg-desc:before {
+  content: '\f059';
+  color: #ffbf00;
+}
